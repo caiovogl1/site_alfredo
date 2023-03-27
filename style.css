@@ -1,0 +1,86 @@
+
+
+body{
+    background:#E5FFD1;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background:#D4FFB2;
+    height:140px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+header img{
+    height: 140px;
+    margin-left: 2.5%;
+}
+
+header h1{
+    width:600px;
+    text-align: center;
+    display: inline-block;
+    position:relative;
+    bottom:40px;
+
+}
+
+header ul{
+    display: inline;
+    margin-left: 20%;
+    position: relative;
+    bottom: 60px;
+}
+
+header li{
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline;
+    margin-left: 50px;
+}
+
+.base{
+    background: #D4FFB2;
+    width: 80%;
+    margin-left:10%;
+    height: 1968px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.base h1{
+  padding-top:25px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.base p{
+  padding-left: 58px;
+  padding-top: 90px;
+  text-align: justify;
+  width:40%;
+  font-size: 30px;
+  line-height: 1.4;
+  display: inline-block;
+}
+
+.canxa{
+    width:25%;
+    display: inline;
+    position:relative;
+    bottom:280px;
+    left: 15%;
+    border: 3px solid #96FF44;
+}
+
+.alunos{
+    width:25%;
+    display: inline;
+    position:relative;
+    right: 10.8%;
+    top:50px;
+    border: 3px solid #96FF44;
+}
