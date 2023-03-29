@@ -11,8 +11,9 @@ header{
 }
 
 header img{
-    height: 140px;
+    height: 130px;
     margin-left: 2.5%;
+    margin-top:5px;
 }
 
 header h1{
@@ -55,32 +56,29 @@ header li{
   font-size: 36px;
 }
 
-.resumo p{
-  padding-left: 58px;
-  padding-top: 90px;
-  text-align: justify;
-  width:40%;
-  font-size: 30px;
-  line-height: 1.4;
-  display: inline-block;
+.imagens-sobre img {
+    border: 3px solid #96FF44;
+    margin-top:5%;
 }
 
-.canxa{
-    width:25%;
-    display: inline;
-    position:relative;
-    bottom:280px;
-    left: 15%;
-    border: 3px solid #96FF44;
+.resumo p {
+    width:40%;
+    text-align: justify;
+    font-size: 30px;
+    line-height: 1.4;
+    margin-top:5%;
 }
 
-.alunos{
-    width:25%;
-    display: inline;
-    position:relative;
-    right: 10.8%;
-    top:50px;
-    border: 3px solid #96FF44;
+.imagens-sobre{
+    width:30%;
+    display:flex;
+    flex-direction:column;
+}
+
+.resumo{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
 }
 
 .direcao{
@@ -103,10 +101,36 @@ header li{
 
 .direcao p{
     font-size:30px;
-    font-weight:bold;
 }
 
-.torneio img{
-    width:500px;
-    margin-left:32%;
+.torneio img {
+    width: 500px;
+    margin-left: 32%;
+    border: 3px solid #96FF44;
+}
+
+.local p{
+    font-size:30px;
+    width:17%;
+    text-align:center;
+}
+
+.local{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+}
+
+footer {
+    background: #D4FFB2;
+    height: 70px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    display:flex;
+    justify-content:center;
+}
+
+footer p{
+    text-align:center;
+    font-size:28px;
 }
