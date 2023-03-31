@@ -30,7 +30,7 @@ header h1{
 
 header ul{
     display: inline;
-    margin-left: 20%;
+    margin-left: 5%;
     position: relative;
     bottom: 35px;
 }
@@ -40,7 +40,7 @@ header li{
     font-weight: bold;
     text-decoration: none;
     display: inline;
-    margin-left: 50px;
+    margin-left: 65px;
 }
 
 .base{
@@ -64,7 +64,7 @@ header li{
     margin-top:5%;
 }
 
-.resumo p {
+#resumo p {
     width:40%;
     text-align: justify;
     font-size: 30px;
@@ -78,47 +78,47 @@ header li{
     flex-direction:column;
 }
 
-.resumo{
+#resumo{
     display:flex;
     justify-content:space-around;
     align-items:center;
 }
 
-.direcao{
+#direcao{
     margin-left:14%;
 }
 
-.direcao li img {
+#direcao li img {
     width: 130px;
     height: 130px;
     border-radius: 275.5px;
     border: 3px solid #96FF44;
 }
 
-.direcao li {
+#direcao li {
     display: inline-block;
     width: 280px; 
     text-align:center;
     margin-top:75px;
 }
 
-.direcao p{
+#direcao p{
     font-size:30px;
 }
 
-.torneio img {
+#torneio img {
     width: 500px;
     margin-left: 32%;
     border: 3px solid #96FF44;
 }
 
-.local p{
+#local p{
     font-size:30px;
     width:17%;
     text-align:center;
 }
 
-.local{
+#local{
     display:flex;
     flex-direction:row;
     justify-content:space-around;
@@ -136,4 +136,9 @@ footer {
 footer p{
     text-align:center;
     font-size:28px;
+}
+
+a{
+    text-decoration:none;
+    color:#000000;
 }
